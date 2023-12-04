@@ -1,0 +1,46 @@
+{
+    "meta": {
+        "schemaVersion": "0.0.0"
+    },
+
+    "vendorId": "",
+    "asnNumber": "",
+
+    "grn-accept": {
+      "packageDetails": [
+        {
+          "packageNumber": "",
+          "packageDescription": "",
+          "packageSKU": "",
+          "packageQuantity": 3,
+          "packageWeight": 234,
+          "packageDimensions": "",
+          "actionQC2": "",
+          "remarksQC": "",
+          "acceptQuantity": 5
+        }
+      ]
+    },
+
+    "grn-return": {
+      "packageDetails": [
+        {
+          "packageNumber": "",
+          "packageDescription": "",
+          "packageSKU": "",
+          "packageQuantity": 3,
+          "packageWeight": 234,
+          "packageDimensions": "",
+          "actionQC2": "",
+          "reasonReject": "",
+          "remarksQC": "",
+          "rejectQuantity": 5
+        }
+      ]
+    },
+
+    "qualityChecker": {
+        "employeeId": ""
+    }
+
+}

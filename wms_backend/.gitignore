@@ -1,0 +1,5 @@
+inbound/migrations
+infra/migrations
+inventory/migrations
+outbound/migrations
+users/migrations

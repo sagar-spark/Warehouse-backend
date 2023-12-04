@@ -1,0 +1,160 @@
+{
+    "company": {
+        "name": "HK Haled & Brothers",
+        "email": "ahad@hkhaled.com",
+        "unit": "ConnectCo",
+        "owner": "Ahad Haled",
+        "phone": "+965",
+        "address": {
+            "zip": "Kuwait Zip",
+            "city": "Kuwait City",
+            "email": "kuwaitwarehouse@connectco.com",
+            "phone": "+965",
+            "state": "Kuwaut State",
+            "address": "C/o Warehouse Hai",
+            "country": "Kuwait"
+        }
+    },
+
+    "companyFeatures": {
+
+        "PROVIDES_INBOUND_PICKUP": true,
+        "PROVIDES_INBOUND_RETURN_DELIVERY": false,
+        "PROVIDES_OUTBOUND_DELIVERY": true,
+        "PROVIDES_OUTBOUND_RETURN_PICKUP": true
+    },
+
+    "orders": {
+        "SHOPIFY": {
+            "CALLBACK_RECEIVE_ORDERS_BASE": "https://apis.connectco.me",
+            "CALLBACK_RECEIVE_ORDERS_PATH": "/infra/orderNotificationShopify/",
+            "API_VERSION": "2022-07"
+        }
+    },
+
+    "appSettings": {
+        
+        "S3_BUCKETS": { 
+            "BARCODE": "wms-s3-assets-bc-rss-hkhaled-prod",
+            "PRIVATE": "wms-s3-assets-private-rss-hkhaled-prod"
+        },
+
+        "S3_CREDS": {
+            "ACCESS": "AKIAUPWMM6CMOOTVRD4S",
+            "SECRET": "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"
+        },
+
+        "PAGINATION": {
+            "PAGE_SIZE": 5
+        },
+
+        "SKU": {
+            "ALLOWED_KEYS": [
+                "otherInformation", "manufacturerName"
+            ]
+        },
+
+        "ASN": {
+            "CATEGORIES": {
+                "VENDOR": {
+                    "MANATORY_FIELDS": [
+                        
+                    ],
+                    "OPTIONAL_FIELDS": [
+                        
+                    ]
+                },
+                "SUPPLIER": {
+                    "MANATORY_FIELDS": [
+                        
+                    ],
+                    "OPTIONAL_FIELDS": [
+                        
+                    ]
+                },
+                "RETAILER": {
+                    "MANATORY_FIELDS": [
+                        
+                    ],
+                    "OPTIONAL_FIELDS": [
+                        
+                    ]
+                }
+            },
+            "MEASUREMENTS": {
+                "PALLETTE_DIMENSIONS_UNITS": "m"
+            }
+        },
+
+        "FRONTEND_PORTAL_MENU": {
+            "INBOUND": {
+                "Inbound": {
+                    "Create ASN": "/inbound/asn",
+                    "Approve GRN": "/inbound/grn-approve"
+                },
+                "Manage": {
+                    "Address": "/manage/address",
+                    "SKUs": "/manage/sku"
+                }
+            },
+            "WAREHOUSE": {
+                "Outbound": {
+                    "ASN Shipment QC": "/inbound/asn-shipment-qc"
+                },
+                "Manage": {
+                    "Warehouse Arrangements": "/manage/location"
+                }
+            }
+        },
+
+        "BILLING": {
+            "SUBSCRIPTION": {
+                "STARTUP": {
+                    "price": 50.0,
+                    "discount": 0.0,
+                    "tax": 0.0
+                },
+                "BASIC": {
+                    "price": 150.0,
+                    "discount": 0.0,
+                    "tax": 0.0
+                },
+                "STANDARD": {
+                    "price": 250.0,
+                    "discount": 0.0,
+                    "tax": 0.0
+                },
+                "ELITE": {
+                    "price": 350.0,
+                    "discount": 55.0,
+                    "tax": 0.0
+                },
+                "PRIORITY": {
+                    "price": 499.0,
+                    "discount": 0.0,
+                    "tax": 0.0
+                }
+            },
+            "ALACARTE": {}
+        }
+    },
+
+    "appLabels": {
+        "inbound": {
+            "ERROR_RESPONSE": {
+                "NO_ASN": "ASN is not present.",
+                "PAGINATION_ASKED_MORE": "Start Index is more than Total Available Items, cannot return any details."
+            },
+            "SUCCESS_RESPONSE": {
+                "ASN_ADD": "ASN has been added: # {asn.id}"
+            }
+        },
+
+        "warehouse": {
+        },
+
+        "outbound": {
+
+        }
+    }
+}

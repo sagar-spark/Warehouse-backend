@@ -1,0 +1,3 @@
+Hello {{user.name}},
+
+Click the link reset your password: {{reset_url}}

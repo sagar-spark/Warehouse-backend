@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "schemaVersion": "0.0.0"
+  },
+
+  "shipmentDetails": {
+    "shipmentDate": "",
+    "shipmentSalesOrderId": "",
+    "shipmentOrderDate": "",
+    "shipmentOrderEmail": "",
+    "shipmentPO": "",
+    "shipmentCarrier": "",
+    "shipmentTrackingNum": ""
+  },
+
+  "shipmentFromDetails": {
+    "vendorId": "",
+    "vendorUserId": "",
+    "vendorWarehouseId": "",
+    "vendorCompanyName": "",
+    "vendorAddress": "",
+    "vendorCity": "",
+    "vendorState": "",
+    "vendorZip": "",
+    "vendorPhone": "",
+    "vendorEmail": ""
+  },
+
+  "destinationDetails": {
+    "destinationName": "",
+    "destinationCompanyName": "",
+    "destinationAddress": "",
+    "destinationCity": "",
+    "destinationState": "",
+    "destinationZip": "",
+    "destinationPhone": "",
+    "destinationEmail": ""
+  },
+
+  "billingDetails": {
+    "billingName": "",
+    "billingCompanyName": "",
+    "billingAddress": "",
+    "billingCity": "",
+    "billingState": "",
+    "billingZip": "",
+    "billingPhone": "",
+    "billingEmail": ""
+  },
+
+  "palletDetails": [
+    {
+      "palletNumber": "",
+      "palletContents": "",
+      "palletWeight": 454,
+      "palletLength": 2,
+      "palletWidth": 2,
+      "palletHeight": 2
+    }
+  ],
+
+  "packageDetails": [
+    {
+      "packageNumber": "",
+      "packageDescription": "",
+      "packageSKU": "",
+      "packageQuantity": 3,
+      "packageWeight": 234,
+      "packageDimensions": ""
+    }
+  ],
+
+  "shippingInstructions": "",
+
+  "receiverDetails": {
+    "employeeId": ""
+  }
+
+}
